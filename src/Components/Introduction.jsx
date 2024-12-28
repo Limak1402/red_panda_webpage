@@ -3,7 +3,7 @@ import myGif from "../Assets/red-panda.gif"
 
 const Introduction = () => {
   return (
-    <div>
+    <div className="introduction">
       <img src={myGif} alt="Mój animowany GIF" />
       <p>
         Welcome to this amazing introduction! This video showcases an adorable red panda reacting to its environment.
