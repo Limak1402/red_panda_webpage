@@ -5,6 +5,7 @@ import Introduction from "./Components/Introduction";
 import Facts from "./Components/Facts";
 import Gallery from "./Components/Gallery";
 import Footer from "./Components/Footer";
+import { INFORMATIONS } from "./data"
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Header />
       <main>
         <Introduction />
-        <Information />
+        <Information {...INFORMATIONS[0]}/>
+        <Information {...INFORMATIONS[1]}/>
+        <Information {...INFORMATIONS[2]}/>
         <Gallery />
         <Facts />
       </main>
