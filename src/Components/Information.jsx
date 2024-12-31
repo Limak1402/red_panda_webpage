@@ -1,5 +1,4 @@
 import React from 'react'
-import INFORMATIONS from "../data"
 
 const Information = (props) => {
   return (

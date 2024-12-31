@@ -1,6 +1,6 @@
 import infoMap from "./Assets/Ailurus_fulgens_distribution_map.png";
 import nationalPark from "./Assets/LangtangNP1.jpg"
-import eatingPanda from "./Assets/red-panda-1851650_1280.jpg"
+import eatingPanda from "./Assets/red-panda-1851650_1280.webp"
 
 export const INFORMATIONS = [
     {
